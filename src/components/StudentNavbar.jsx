@@ -12,10 +12,12 @@ const StudentNavbar = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
+                            <Link class="nav-link" to="/LoginStudent">StudentLogin</Link>
                             <Link class="nav-link active" aria-current="page" to="/AddStudent">Add Student</Link>
                             <Link class="nav-link" to="/SearchStudent">Search Student</Link>
                             <Link class="nav-link" to="/DeleteStudent">Delete Student</Link>
                             <Link class="nav-link" to="/ViewStudent">View Student</Link>
+                            
                         </div>
                     </div>
                 </div>
